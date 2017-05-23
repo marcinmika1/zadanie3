@@ -1,47 +1,101 @@
-body{
+body {
     background-color: black;
     text-align: center;
-    
 }
 
-#container{
+#container {
     display: inline-block;
     width: 600px;
     height: 600px;
     background-color: white;
 }
 
-#inside{
-    display: inline-block;
+#inside {
+    position: relative;
     width: 190px;
     height: 190px;
     float: left;
+    margin: 5px;
+    
 }
 
-.czerwony{
+.czerwony {
     background-color: red;
 }
-.niebieski{
+
+.niebieski {
     background-color: blue;
 }
-.zielony{
+
+.zielony {
     background-color: green;
 }
-.zolty{
+
+.zolty {
     background-color: yellow;
 }
-.czarny{
+
+.czarny {
     background-color: black;
 }
-.pomaranczowy{
+
+.pomaranczowy {
     background-color: orange;
 }
-.fioletowy{
+
+.fioletowy {
     background-color: purple;
 }
-.szary{
+
+.szary {
     background-color: gray;
 }
-.rozowy{
+
+.rozowy {
     background-color: pink;
+}
+
+#kolo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
 }
