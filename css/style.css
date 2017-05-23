@@ -1,9 +1,47 @@
+body{
+    background-color: black;
+    text-align: center;
+    
+}
+
 #container{
+    display: inline-block;
     width: 600px;
     height: 600px;
+    background-color: white;
 }
 
 #inside{
+    display: inline-block;
     width: 190px;
     height: 190px;
+    float: left;
+}
+
+.czerwony{
+    background-color: red;
+}
+.niebieski{
+    background-color: blue;
+}
+.zielony{
+    background-color: green;
+}
+.zolty{
+    background-color: yellow;
+}
+.czarny{
+    background-color: black;
+}
+.pomaranczowy{
+    background-color: orange;
+}
+.fioletowy{
+    background-color: purple;
+}
+.szary{
+    background-color: gray;
+}
+.rozowy{
+    background-color: pink;
 }
