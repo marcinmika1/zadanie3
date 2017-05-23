@@ -1,3 +1,9 @@
 #container{
-    
+    width: 600px;
+    height: 600px;
+}
+
+#inside{
+    width: 190px;
+    height: 190px;
 }
